@@ -1,0 +1,110 @@
+/* Type Text*/
+.elementType0   { font-size:18px; font-weight:200; font-style:normal;} 
+/* Type Title*/
+.elementType1   { font-size:30px; font-weight:200; font-style:normal;} 
+/* Info box*/
+.elementType2   { font-size:16px; opacity:.9; background-color:#c2dfe5; padding:10px 10px 10px 70px; border-radius:6px; color:#0b4055; background-image:url(icon-info.png); background-repeat:no-repeat; background-size:65px 55px;} 
+.elementType2 * { }
+/* Warning box*/
+.elementType3   { font-family: 'crayon';text-transform: uppercase;font-size:16px; opacity:.9; background-color:#d62e2e; padding:10px 10px 10px 70px; border-radius:6px; color:#fff; background-image:url(icon-warning.png); background-repeat:no-repeat; background-size:65px 55px;}/*background-image:url(box-transparent-red-bg.png);*/
+.elementType3 * { font-family: 'crayon';text-transform: uppercase;}
+.elementType3 a { font-family: 'crayon';text-transform: uppercase;color:#fff; text-decoration:underline;} 
+/* Flag */
+.elementType4   { font-family: 'crayon';text-transform: uppercase;font-size:16px; min-height:400px; vertical-align:middle; padding:60px 90px 20px 80px; border-radius:6px; color:#fff; background-image:url(flag.png); background-repeat:no-repeat;background-size:100% 100%; /* background-size:440px 440px;*/}
+.elementType4 * { font-family: 'crayon';text-transform: uppercase;}
+/* White Box*/
+.elementType5   { font-size:18px; font-weight:200; font-style:normal; background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.9); padding:20px; border-radius:8px;}
+/* Story */
+.elementType6   { font-size:16px; color:#839057; background-color:rgb(247,249,239); background-color:rgba(247,249,239,0.9); padding:10px 10px 10px 90px; border-radius:8px; background-image:url(icon-story.png); background-repeat:no-repeat; background-size:90px 80px;}
+.elementType6 * { font-size:16px; color:#839057; }
+/* Ethis and Compliance */
+.elementType7   { font-size:18px; font-weight:200; font-style:normal; color:#4a7992; background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.9); padding:40px 10px 10px 240px; border-radius:8px; background-image:url(icon-ethics-and-compliance.png); background-repeat:no-repeat; background-size:240px 190px;}
+/* To Do*/
+.elementType8   { font-size:16px; color:#86425a; background-color:rgb(250,243,244); background-color:rgba(250,243,244,0.9); padding:10px 10px 10px 90px; border-radius:8px; background-image:url(icon-todo.png); background-repeat:no-repeat; background-size:90px 80px;}
+.elementType8 * { font-size:16px; color:#86425a; }
+
+/* Blue Box*/
+.elementType20   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(63,169,245); background-color:rgba(63,169,245,0.9); padding:20px; border-radius:8px;}
+.elementType20 a { color:#fff;}  
+/* Green Box*/
+.elementType21   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(122,201,67); background-color:rgba(122,201,67,0.9); padding:20px; border-radius:8px;}
+.elementType21 a { color:#fff;}  
+/* Orange Box*/
+.elementType22   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(255,147,30); background-color:rgba(255,147,30,0.9); padding:20px; border-radius:8px;}
+.elementType22 a { color:#fff;}  
+/* Pink Box*/
+.elementType23   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(255,123,172); background-color:rgba(255,123,172,0.9); padding:20px; border-radius:8px;}
+.elementType23 a { color:#fff;}  
+/* Violet Box*/
+.elementType24   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(220,99,255); background-color:rgba(220,99,255,0.9); padding:20px; border-radius:8px;}
+.elementType24 a { color:#fff;}  
+/* Red Box*/
+.elementType25   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(245,63,63); background-color:rgba(245,63,63,0.9); padding:20px; border-radius:8px;}
+.elementType25 a { color:#fff;}  
+/* Grey Box*/
+.elementType26   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(189,204,212); background-color:rgba(189,204,212,0.9); padding:20px; border-radius:8px;}
+.elementType26 a { color:#393e40;} 
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Info box*/
+    .elementType2   {background-image:url(icon-info@2x.png); background-size:65px 55px;} 
+    /* Warning box*/
+    .elementType3   {background-image:url(icon-warning@2x.png); background-size:65px 55px;}/*background-image:url(box-transparent-red-bg.png);*/
+    /* Flag */
+    .elementType4   { background-image:url(flag@2x.png); background-size:100% 100%; /*background-size:440px 440px;*/}
+    /* Story */
+    .elementType6   { background-image:url(icon-story@2x.png); background-size:90px 80px;}
+    /* Ethis and Compliance */
+    .elementType7   { background-image:url(icon-ethics-and-compliance@2x.png); background-size:240px 190px;}
+    /* To Do*/
+    .elementType8   { background-image:url(icon-todo@2x.png); background-size:90px 80px;}
+}
+
+/* Custom Css Style */
+/* Type Text*/
+.panelCustom > .elementType0   { font-size:18px; font-weight:200; font-style:normal;} 
+/* Type Title*/
+.panelCustom > .elementType1   { font-size:30px; font-weight:200; font-style:normal;} 
+/* Info box*/
+.panelCustom > .elementType2   { font-family: 'crayon';text-transform: uppercase;font-size:16px; opacity:.9; background-color:#c2dfe5; padding:10px 10px 10px 70px; border-radius:6px; color:#0b4055; background-image:url(icon-info.png); background-repeat:no-repeat; background-size:65px 55px;} 
+.panelCustom > .elementType2 * { font-family: 'crayon';text-transform: uppercase;}
+/* Warning box*/
+.panelCustom > .elementType3   { font-family: 'crayon';text-transform: uppercase;font-size:16px; opacity:.9; background-color:#d62e2e; padding:10px 10px 10px 70px; border-radius:6px; color:#fff; background-image:url(icon-warning.png); background-repeat:no-repeat; background-size:65px 55px;}/*background-image:url(box-transparent-red-bg.png);*/
+.panelCustom > .elementType3 * { font-family: 'crayon';text-transform: uppercase;}
+.panelCustom > .elementType3 a { color:#fff; text-decoration:underline;} 
+/* Flag */
+.panelCustom > .elementType4   { font-family: 'crayon';text-transform: uppercase;font-size:16px; min-height:400px; vertical-align:middle; padding:60px 20px 20px 70px; border-radius:6px; color:#fff; background-image:url(flag.png); background-repeat:no-repeat; background-size:440px 440px;}
+.panelCustom > .elementType4 * { font-family: 'crayon';text-transform: uppercase;}
+/* White Box*/
+.panelCustom > .elementType5   { font-size:18px; font-weight:200; font-style:normal; background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.9); padding:20px; border-radius:8px;}
+/* Story */
+.panelCustom > .elementType6   { font-family: 'crayon';text-transform: uppercase;font-size:16px; color:#839057; background-color:rgb(247,249,239); background-color:rgba(247,249,239,0.9); padding:10px 10px 10px 90px; border-radius:8px; background-image:url(icon-story.png); background-repeat:no-repeat; background-size:90px 80px;}
+.panelCustom > .elementType6 * { font-family: 'crayon';text-transform: uppercase;font-size:16px; color:#839057; }
+/* Ethis and Compliance */
+.panelCustom > .elementType7   { font-size:18px; font-weight:200; font-style:normal; color:#4a7992; background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.9); padding:40px 10px 10px 240px; border-radius:8px; background-image:url(icon-ethics-and-compliance.png); background-repeat:no-repeat; background-size:240px 190px;}
+/* To Do*/
+.panelCustom > .elementType8   { font-family: 'crayon';text-transform: uppercase;font-size:16px; color:#86425a; background-color:rgb(250,243,244); background-color:rgba(250,243,244,0.9); padding:10px 10px 10px 90px; border-radius:8px; background-image:url(icon-todo.png); background-repeat:no-repeat; background-size:90px 80px;}
+.panelCustom > .elementType8 * { font-family: 'crayon';text-transform: uppercase;font-size:16px; color:#86425a; }
+
+/* Blue Box*/
+.panelCustom > .elementType20   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(63,169,245); background-color:rgba(63,169,245,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType20 a { color:#fff;}  
+/* Green Box*/
+.panelCustom > .elementType21   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(122,201,67); background-color:rgba(122,201,67,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType21 a { color:#fff;}  
+/* Orange Box*/
+.panelCustom > .elementType22   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(255,147,30); background-color:rgba(255,147,30,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType22 a { color:#fff;}  
+/* Pink Box*/
+.panelCustom > .elementType23   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(255,123,172); background-color:rgba(255,123,172,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType23 a { color:#fff;}  
+/* Violet Box*/
+.panelCustom > .elementType24   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(220,99,255); background-color:rgba(220,99,255,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType24 a { color:#fff;}  
+/* Red Box*/
+.panelCustom > .elementType25   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(245,63,63); background-color:rgba(245,63,63,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType25 a { color:#fff;}  
+/* Grey Box*/
+.panelCustom > .elementType26   { font-size:18px; font-weight:200; font-style:normal; color:#fff; background-color:rgb(189,204,212); background-color:rgba(189,204,212,0.9); padding:20px; border-radius:8px;}
+.panelCustom > .elementType26 a { color:#393e40;}  
+

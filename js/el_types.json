@@ -1,0 +1,43 @@
+{
+	"compositetypes":{
+	  "default"  :   {"id":0,  "name": "Default","hasOptions" : false},
+	  "srtBoxBtn":  {"id":1, "name": "Sort Box - Button","hasOptions" : false},
+	  "flipCard" :  {"id":2,  "name": "Flip Card","hasOptions" : false},
+	  "accordion":  {"id":3, "name": "Accordion","hasOptions" : false},
+	  "optionShow": {"id":4,"name": "Option Show","hasOptions" : true},
+          "optionShowNoBtn": {"id":21,"name": "Option Show No Button","hasOptions" : true},
+	  "scoreText":  {"id":5, "name": "Score Text","hasOptions" : false},
+	  "slider"   :  {"id":6,    "name": "Slider","hasOptions" : true},
+	  "sliderBtn":  {"id":7, "name": "Slider - Button","hasOptions" : true},
+	  "sortBox"  :  {"id":8,   "name": "Sort Box","hasOptions" : false},
+	  "modal"    :  {"id":9,     "name": "Modal","hasOptions" : true},
+	  "popover"  :  {"id":10,  "name": "Popover","hasOptions" : true},
+	  "dragdrop" :  {"id":11, "name": "Drag and Drop (Button)","hasOptions" : true},
+	  "interactive" :  {"id":12, "name": "Interactive ","hasOptions" : false},
+	  "combo"    :  {"id":13, "name": "Combo","hasOptions" : true},
+	  "dragdrop1" :  {"id":15, "name": "Drag and Drop ","hasOptions" : true},
+	  "submit"   :  {"id":16, "name": "Submit ","hasOptions" : true},
+	  "combo2"   :  {"id":17, "name": "Combo (underscores)","hasOptions" : true},
+	  "dragDrop2":  {"id":18, "name": "Drag Drop (Open)","hasOptions" : false},
+	  "quizStatus":  {"id":24, "name": "Quiz Status","hasOptions" : true}
+	},
+	"simpletypes":{
+	  "text" : {"id":0,  "name": "Text"},
+	  "title": {"id":1,"name": "Title"},
+	  "infoBox": {"id":2, "name": "Info Box"},
+	  "warningBox": {"id":3, "name": "Worning Box"},
+	  "flag": {"id":4, "name": "Flag"},
+	  "whiteBox": {"id":5, "name": "White Box"},
+	  "story": {"id":6, "name": "Story"},
+	  "ethicCompliance": {"id":7,  "name": "Ehics & Compliance"},
+	  "toDo": {"id":8, "name": "To Do"},
+	  "blueBox": {"id":20, "name": "Blue Box"},
+	  "greenBox": {"id":21, "name": "Worning Box"},
+	  "orangeBox": {"id":22, "name": "Worning Box"},
+	  "pinkBox": {"id":23, "name": "Worning Box"},
+	  "violetBox": {"id":24, "name": "Violet Box"},
+	  "redBox": {"id":25, "name": "Red Box"},
+	  "greyBox": {"id":26, "name": "Grey Box"},
+	  "spriteAnim": {"id":101, "name": "Sprite Animation"}
+	}
+}

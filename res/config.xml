@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<config>
+    <language>fr</language>
+    <version>1.0</version>
+    <note> <![CDATA[GESTION DES AOD]]> </note>
+    <wait_eoa_nbtn>0</wait_eoa_nbtn>
+    <deactivate_toc_link>0</deactivate_toc_link>
+    <deac_jt_chapter>0</deac_jt_chapter>
+    <forceHTML5>1</forceHTML5>
+    <mastery_score>80</mastery_score>
+    <fullScreen>1</fullScreen>
+    <nextElement>0</nextElement>
+    <collapsebar>0</collapsebar>
+    <alwaysShowScore>0</alwaysShowScore>
+    <dropDownChapter>0</dropDownChapter>
+    <copyRight> <![CDATA[<a href="http://www.actando.com/about-actando/legal/" target="_blank">©<span class="year">2019</span> Actando</a>]]> </copyRight>
+    <extraoptions><![CDATA[]]></extraoptions>
+    <background info="Path relative to /res/pic. Let blank for normal Background. 1024x768px image size recomended.">../../media/bg.jpg</background>
+    <logo info="Path relative to /res/pic. Let blank for Actando logo. 53px height image size recomended."/>
+    <pathMedias>
+        <pic info="Path relative to /res/pic">res/SLIDESHOW/pic/</pic>
+        <flv info="Path relative to /res/flv">res/SLIDESHOW/flv/</flv>
+        <swf info="Path relative to /res/swf">res/SLIDESHOW/swf/</swf>
+        <mp3>res/SLIDESHOW/flv/</mp3>
+        <ogg>res/SLIDESHOW/flv/</ogg>
+        <mp4>res/SLIDESHOW/flv/</mp4>
+        <def>res/SLIDESHOW/</def>
+    </pathMedias>
+    <autoTransition>2000</autoTransition>
+    <picZoomFactor info="Used for 800x600 HTML integration, set 1 for 1024*768">1</picZoomFactor>
+    <transitions>
+        <type info="&quot;slide&quot; or &quot;fade&quot;">fade</type>
+        <speed info="10 : speed,  100 : normal, 200 : slow">100</speed>
+    </transitions>
+    <moduletitle>
+        <![CDATA[GESTION DES AOD]]>
+    </moduletitle>
+    <labels>
+       <nextQuizBTNLabel>
+<![CDATA[Suivant]]>
+       </nextQuizBTNLabel>
+       <resultQuizLabel>
+<![CDATA[Vous avez répondu correctement à <b>{{nbrResp}}</ b> question(s) sur un total de <b>{{nbrTotal}}</ b> questions]]>
+       </resultQuizLabel>
+       <retryResultQuizLabel>
+<![CDATA[Félicitations, vous avez réussi le quiz. <button id='myBtnNext' class='btn btn-primary'> <span class='glyphicon glyphicon-chevron-right'></span> Suivant</button>]]>
+       </retryResultQuizLabel>
+       <retryQuizLabel>
+<![CDATA[Vous avez répondu correctement à {{score}}% des questions. <br> Malheureusement vous n'avez pas atteint 80% de bonnes réponses pour valider ce module. Merci de cliquer sur le bouton ci-dessus pour recommencer le bilan.<br><button id='btnRepeatQuiz' class='btn btn-warning'> <span class='glyphicon glyphicon-repeat'></span> Recommencer le bilan</button>]]>
+       </retryQuizLabel>
+       <transcriptLabel>
+<![CDATA[<br>T<br>R<br>A<br>N<br>S<br>C<br>R<br>I<br>P<br>T]]>
+       </transcriptLabel>
+<Validate>
+<![CDATA[Validate]]>
+</Validate>
+<Check>
+<![CDATA[Check]]>
+</Check>
+<Continue>
+<![CDATA[Continue]]>
+</Continue>
+<Submit>
+<![CDATA[Submit]]>
+</Submit>
+<Close>
+<![CDATA[Close]]>
+</Close>
+<chapters>
+<![CDATA[Chapters]]>
+</chapters>
+<transcript>
+<![CDATA[<br>T<br>R<br>A<br>N<br>S<br>C<br>R<br>I<br>P<br>T]]>
+</transcript>
+<Next>
+<![CDATA[Next]]>
+</Next>
+<Previous>
+<![CDATA[Previous]]>
+</Previous>
+    </labels>
+<moduleTheme>res/SLIDESHOW/</moduleTheme>
+<modulecss>actando-alt3.css</modulecss>
+</config>
+<slides>
+<slide id="115552">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover><![CDATA[<span class="voiceOverText"><span data-name="slide_01.mp3"><br /><br />La gestion des anticoagulants oraux direct.</span></span>]]></voiceover>
+      <src>bg_Anticoagulants.png</src>
+      <anim>
+ <item  id="1363042" x="278" y="236" width="" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363042" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="color:#fff;
+letter-spacing: 4px;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:52px;'>Gestion des AOD</span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363043" x="459" y="311" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363043" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#fff;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363044" x="185" y="339" width="670" height="100" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363044" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/logo_ESC_3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363091" x="185" y="440" width="670" height="2" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363091" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd>slide_01.mp3</snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+<slide id="115545">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover><![CDATA[<span class="voiceOverText"><span data-name="slide_02.mp3"><br /><br />Le guide pratique, de l'utilisation des divers anticoagulants , publié en 2021,selon l’association européenne de rythme cardiaque. <br /><br /><br /><br />Il s’agit , du relais entre les anticoagulants.<br /><br /><br /><br />Par exemple, comment passer des AVK  aux nouveaux anticoagulants oraux, ou, l’inverse?<br /><br /><br /><br />Comment se fait le relais de l’héparine non fractionnée, aux nouveaux anticoagulants oraux? <br /><br /><br /><br />OU ,Switcher d’une prise biquotidienne des nouveaux anticoagulants oraux, à une prise unique. Ou l’inverse.<br /><br /><br /><br />Comment passer d’une prise unique, ou biquotidienne, des nouveaux anticoagulants oraux, aux injections sous cutanées.<br /><br /><br /><br />Pour passer des AVK, vers les nouveaux anticoagulants oraux, Le protocole est le suivant.<br /><br /><br /><br />Les nouveaux anticoagulants oraux, peuvent être débuté dès que l’INR est inférieur à 2. En cas d’INR compris entre 2, et 2 et demi, on peut débuter le <br /><br /><br /><br />jour même le nouveau traitement, ou au mieux le lendemain. Quand l’INR est entre 2,5 et 3, il faut attendre 2 à 3 jours et remesurer l’INR. <br /><br /><br /><br />Pour le cas inverse, c’est-à-dire remplacer un anticoagulant oral direct par un AVK. La prise de l’anticoagulant oral direct,  devra être poursuivie, après le <br /><br /><br /><br />début du traitement par AVK, jusqu’à ce que l’INR soit supérieur à 2. <br /><br /><br /><br />Comment faire le relais héparine non fractionnée, anticoagulants oraux directs? <br /><br /><br /><br />Initier les anticoagulants oraux directs, 2 à 4 heures après, avoir arrêté l’héparine non fractionnée. <br /><br /><br /><br />Relais HNF vers les anticoagulants oraux directs. Commencer l’HNF à l’heure de la prise prévue de lanticoagulant oral direct sauf si insuffisance rénale.</span></span>]]></voiceover>
+      <src>bg-shema.png</src>
+      <anim>
+ <item  id="1362943" x="23" y="14" width="" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362943" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size:28px;
+color:rgb(9, 87, 156);font-weight:bold;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:32px;'>Le guide pratique, de l'utilisation des divers anticoagulants </span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362944" x="23" y="60" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362944" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362964" x="83" y="86" width="850" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362964" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size : 18px;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[2021 European Heart Rhythm Association Practical Guide on the Use of Non-Vitamin K Antagonist Oral Anticoagulants in Patients with Atrial Fibrillation]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362946" x="240" y="139" width="550" height="400" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362946" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/03__1.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362958" x="240" y="139" width="550" height="400" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362958" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/03__2.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362965" x="240" y="139" width="550" height="400" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362965" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/03__3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362971" x="240" y="139" width="550" height="400" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362971" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/03__4.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd>slide_02.mp3</snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+<slide id="115547">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover><![CDATA[<span class="voiceOverText"><span data-name="slide_03_2.mp3"><br /><br />L’Absorption et le métabolisme des différents nouveaux Anticoagulants oraux. <br /><br /><br /><br />Pour le Dabigatran, sa Biodisponibilité est entre 3 et 7%. Son excrétion est essentiellement rénale supérieur à 80%. Sa demi-vie d'élimination est entre 12 à <br /><br /><br /><br />17 heures. 20 % du produit ,est excrété par les voies biliaires.<br /><br /><br /><br />La biodisponibilité absolue dapixaban, est d’environ 50%. LApixaban est rapidement absorbé, ses concentrations maximales sont obtenues 3 à 4 heures <br /><br /><br /><br />après la prise du comprimé. sa demi-vie est d’environ 12 heures. L’excrétion rénale dapixaban, compte pour environ 27% de la clairance total. 25 % de la <br /><br /><br /><br />dose administrée est excrétée sous forme de métabolites, une excrétion biliaire, ainsi qu’une excrétion intestinale directe ont également été observées.<br /><br /><br /><br />Pour lédoxaban, La biodisponibilité absolue est de 62 %. La demi-vie d’élimination  d’une dose administrée par voie orale, est de 10 à 14 heures.<br /><br /><br /><br />lédoxaban s’élimine par biotransformation et, sous forme inchangée, dans l’urine et les fèces. La clairance rénale sous forme inchangée, représente environ <br /><br /><br /><br />50 % de la clairance totale. et la clairance non rénale par biotransformation et sécrétion biliaire, les quelque 50 % restants.<br /><br /><br /><br />Le rivaroxaban est peu soluble et son absorption est élevée. La biodisponibilité orale du rivaroxaban est de 100 %, quand il est pris avec des aliments, en <br /><br /><br /><br />raison de son absorption quasi totale. sa biodisponibilité orale est de 66 % sans la prise d’aliments. Sa demi-vie d’élimination terminale moyenne est de 5 à <br /><br /><br /><br />9 heures, après l’atteinte de l’état d’équilibre par l’administration de comprimés chez des personnes jeunes. Et,la demi-vie d’élimination terminale moyenne <br /><br /><br /><br />a été de 11 à 13 heures, chez des personnes âgées. La clairance et l’élimination du rivaroxaban se font comme suit.<br /><br /> <br /><br /> 1/3 du médicament actif est éliminé sous forme inchangée par les reins .1/3 du médicament actif est transformé en métabolites inactifs, puis éliminé par <br /><br /><br /><br />les reins . 1/3 du médicament actif est transformé en métabolites inactifs, puis éliminé par voie fécale.</span></span>]]></voiceover>
+      <src>bg-shema.png</src>
+      <anim>
+ <item  id="1362987" x="23" y="14" width="950" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362987" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size:28px;
+color:rgb(9, 87, 156);font-weight:bold;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:32px;'>L’Absorption et le métabolisme des différents nouveaux Anticoagulants oraux. </span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362988" x="22" y="105" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362988" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1362990" x="205" y="118" width="620" height="420" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1362990" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_1.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363009" x="205" y="118" width="620" height="420" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363009" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_2.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363010" x="205" y="118" width="620" height="420" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363010" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363011" x="205" y="118" width="620" height="420" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363011" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_4.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363012" x="205" y="118" width="620" height="420" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363012" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_5.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363013" x="205" y="118" width="620" height="420" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363013" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/04_6.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd>slide_03_2.mp3</snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+<slide id="115548">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover><![CDATA[<span class="voiceOverText"><span data-name="slide_04.mp3"><br /><br />Ce tableau parle de l’utilisation des Nouveaux anticoagulants orales selon la fonction rénale, à une dose de 110 Miligramme, 2 fois par jour, chez les patients <br /><br /><br /><br />avec un haut risque de saignement. <br /><br /><br /><br />Les 4 Nouveaux anticoagulants oraux , sont en grande partie éliminés par les reins : le dabigatran ,a une grande élimination rénale de 80 %. tandis que <br /><br /><br /><br />pour lédoxaban elle est à 50 %, celle du rivaroxaban  est de 35 %, et 27 % pour l’ apixaban.<br /><br /><br /><br />Sur le schéma ,les flèches en orange ,indiquent une utilisation prudente de chaque molécule.<br /><br /><br /><br />Chez les patients présentant une insuffisance rénale modérée ou sévère avec une clairance en créatinine  entre 15 et 50 mililitre  par minute, la dose <br /><br /><br /><br />recommandée dédoxaban est de 30 mg une fois par jour.<br /><br /><br /><br />Chez les patients atteints d'insuffisance rénale terminale, ou sous dialyse, avec une clairance en créatinine inférieure à 15 millilitre  par minute, l'utilisation <br /><br /><br /><br />de lédoxaban n'est pas recommandée.<br /><br /><br /><br />Pour lapixaban, les recommandations d’utilisations sont.<br /><br /><br /><br />Chez les individus atteints d’insuffisance rénale légère,quand la clairance de la créatinine est de 51 à 80 mL/min, ou modérée avec une clairance de la <br /><br /><br /><br />créatinine de 30 à 50 mL/min, la posologie est de 5 mg deux fois par jour. Pas d’ajustement posologique ,sauf si le patient remplit les critères de diminution <br /><br /><br /><br />de dose, à 2,5 mg deux fois par jour basés sur l’âge, le poids corporel et ou la créatinine sérique. Pour ceux qui présentent une insuffisance rénale  sévère <br /><br /><br /><br />avec une clairance de la créatinine de 15 à 29 mL/min , réduire la dose dapixaban à 2,5 miligrame 2 fois par jour.<br /><br /><br /><br />Pour le Rivaroxaban qui est le xarelto,  les patients atteints d’une insuffisance rénale modérée,  c’est-à-dire,  la clairance de la créatinine est de 30 à 49 <br /><br /><br /><br />ml/min, ou sévère la posologie recommandée, est de 15 mg une fois par jour. Xarelto doit donc être utilisé avec prudence, chez les patients atteints d’une <br /><br /><br /><br />insuffisance rénale sévère, ou la clairance de la créatinine est de 15 à 29 ml/min. et il n’est pas recommandée, chez les patients présentant une clairance de <br /><br /><br /><br />la créatinine inférieure à 15 ml/min.<br /><br /><br /><br />Le Dabigatran,Chez les patients présentant une insuffisance rénale sévère, la ClCr  est <à 30 mL/min, le traitement par dabigatran est contre-indiqué.<br /><br /><br /><br />Chez les patients présentant une insuffisance rénale modérée, la ClCr est de 30à 50 mL/min, une réduction de la dose est recommandée du pradaxa.</span></span>]]></voiceover>
+      <src>bg-shema.png</src>
+      <anim>
+ <item  id="1363014" x="23" y="13" width="950" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363014" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size:28px;
+color:rgb(9, 87, 156);font-weight:bold;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:32px;'>L’utilisation des Nouveaux anticoagulants </span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363015" x="22" y="61" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363015" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363016" x="198" y="67" width="650" height="470" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363016" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/05_1.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363026" x="198" y="67" width="650" height="470" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363026" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/05_3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363027" x="198" y="67" width="650" height="470" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363027" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/05_4.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363028" x="198" y="67" width="650" height="470" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363028" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/05_5.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd>slide_04.mp3</snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+<slide id="115550">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover><![CDATA[<span class="voiceOverText"><span data-name="slide_05.mp3"><br /><br />l’utilisation des Nouveaux anticoagulants orales selon le poids. <br /><br /><br /><br />le rivaroxban,Chez les adultes, les extrêmes de poids, quand il est < à 50 kg et supérieur à 120 kg, ont très peu modifié les concentrations plasmatiques de <br /><br /><br /><br />rivaroxaban, moins de 25 %. Chez les enfants, la dose de XARELTO est déterminée selon le poids corporel. Selon une analyse exploratoire chez les enfants, <br /><br /><br /><br />la maigreur et l’obésité n’ont pas d’effet pertinent sur l’exposition au rivaroxaban.<br /><br /><br /><br />Pour le Dabigatran, la posologie recommandée est très restreinte chez les patients pesant moins de 50 kg ou plus de 110 kg. Sur la base des données <br /><br /><br /><br />cliniques et pharmacocinétiques disponibles, aucune adaptation de la dose n’est nécessaire , mais une surveillance clinique étroite est recommandée.</span></span>]]></voiceover>
+      <src>bg-shema.png</src>
+      <anim>
+ <item  id="1363029" x="23" y="14" width="950" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363029" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size:28px;
+color:rgb(9, 87, 156);font-weight:bold;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:32px;'>L’utilisation des Nouveaux anticoagulants orales selon le poids. 
+</span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363030" x="23" y="105" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363030" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363031" x="97" y="160" width="850" height="320" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363031" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/06__1.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363032" x="97" y="160" width="850" height="320" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363032" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/06__2.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363033" x="97" y="160" width="850" height="320" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363033" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/06__3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd>slide_05.mp3</snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+<slide id="115551">
+<parm>
+      <type>pic</type>
+      <effect>fadeOut</effect>
+     <isBlocked>0</isBlocked>
+     <anchor></anchor>
+     <voiceover></voiceover>
+      <src>bg-shema.png</src>
+      <anim>
+ <item  id="1363034" x="23" y="14" width="950" height="" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363034" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="font-size:28px;
+color:rgb(9, 87, 156);font-weight:bold;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[<span style='font-size:32px;'>NOACs in patients with thrombocytopenia. NOAC, non-vitamin K antagonist oral anticoagulant. </span><style>*{font-family: 'Arial', serif;}</style>]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363035" x="23" y="105" width="100" height="3" effect="1" dir="fadeInLeft" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363035" animOut="-1" animOutBefore=""  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-color:#F0028B"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363036" x="209" y="108" width="620" height="430" effect="1" dir="zoomIn" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363036" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/07__1.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363039" x="209" y="108" width="620" height="430" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363039" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/07__2.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363040" x="209" y="108" width="620" height="430" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363040" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/07__3.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+ <item  id="1363041" x="209" y="108" width="620" height="430" effect="1" dir="flash" type="0"  compositeType="0" isBlocked="0" animDur="0" animInfinite="0" itemRef="1363041" animOut="-1" animOutBefore="-1"  spriteSheet="" spriteSheetSpeed="10" depth="" style="background-image:url(res/SLIDESHOW/pic/07__4.png); background-size:100% 100%;
+background-repeat: no-repeat;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+color:#505050;"  class="elementType0 "   linktype="quiz"  linkids="">
+              <text><![CDATA[]]></text>
+              <parameters><![CDATA[]]></parameters>
+              <snd></snd>
+          </item>
+      </anim>
+  </parm>
+  <snd></snd>
+  <chapter><![CDATA[]]></chapter>
+  <displayresult>no</displayresult>
+</slide>
+   </slides>
+</root>

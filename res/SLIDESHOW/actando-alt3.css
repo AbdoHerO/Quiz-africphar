@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i');
+div.header { height:78px; background-image:url(assets/actando-banner.png);  }
+
+.headersFullScreen .header { height:78px; background-image:url(assets/actando-banner-fullscreen.png);  }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	div.header {  background-image:url(assets/actando-banner@2x.png);}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.headersFullScreen .header {  background-image:url(assets/actando-banner-fullscreen@2x.png);}
+}
+
+
+* { font-family: 'Vollkorn', serif;}
+
+/* Style for table */
+
+.tableClass{
+	display: table !important;
+	width: 100% !important;
+	height: 100%;
+}
+
+.tableCell{
+	display: table-cell;
+	vertical-align: middle;
+}

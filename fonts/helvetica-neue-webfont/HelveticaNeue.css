@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('../font-actando/HelveticaNeue-Light.eot');
+  src: url('../font-actando/HelveticaNeue-Light.woff') format('woff'),
+url('../font-actando/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg');
+}
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('../font-actando/HelveticaNeue-UltraLight.eot');
+  src: url('../font-actando/HelveticaNeue-UltraLight.woff') format('woff'),
+url('../font-actando/HelveticaNeue-UltraLight.svg#HelveticaNeue-UltraLight') format('svg');
+}

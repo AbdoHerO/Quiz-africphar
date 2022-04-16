@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+    <name>Evaluation : Communication et Techniques de Vente</name>
+    <description />
+    <!-- Afficher ou non les bonnes réponses -->
+    <ShowResponseBeforeGoToNext>0</ShowResponseBeforeGoToNext>
+    <!-- Afficher A,B,C,D... au  lieu de 1, 2,3,4...  devant les questions-->
+    <ShowAlphabetInsteadOfNumeric>0</ShowAlphabetInsteadOfNumeric>
+    <!-- Tri aléatoire des questions -->
+    <RandomSortQuestions>1</RandomSortQuestions>
+    <!-- Seuil de bonnes réponses requis-->
+    <GoodScoreRateRequired>80</GoodScoreRateRequired>
+    <bannerImage />
+    <Labels>
+        <LblQuestionSuivante>Suivant</LblQuestionSuivante>
+        <LblValider>Valider</LblValider>
+        <LblValidationQuiz>Valider</LblValidationQuiz>
+        <LblPage>Page :</LblPage>
+        <LblLancerQuiz>Lancer le Quizz</LblLancerQuiz>
+        <LblExitToolTip>retour</LblExitToolTip>
+        <Lbltooltipsound1>Cliquez ici pour lire ou arrêter le son</Lbltooltipsound1>
+        <Lbltooltipsound2>Cliquez ici pour lire le son</Lbltooltipsound2>
+        <lblNoTimeTitle>Time has expired</lblNoTimeTitle>
+        <lblNoTime>
+            <![CDATA[The allocated time has expired for this module.</br>You will now automatically be transferred to results.]]>
+        </lblNoTime>
+        <lblOk>Ok</lblOk>
+    </Labels>
+    <addAnswers>
+        <answer type="false" keepposition="true">
+            <text>Je ne sais pas</text>
+        </answer>
+    </addAnswers>
+    <sounds>
+        <intro />
+    </sounds>
+    <!--Ecran de bienvenue-->
+    <Introduction>
+        <Title>Introduction</Title>
+        <Phraseintro>Le test "Identification des besoins" consiste en une série de questions à choix multiples qui
+            portent sur le contenu du programme de formation. Il vous permet d’évaluer votre niveau de connaissance
+            avant de démarrer. Vous aurez à le refaire à la fin du programme (Test « Validation des connaissances ») de
+            façon à pouvoir mesurer votre progression.</Phraseintro>
+        <Phraseintro>Les questions sont à choix multiples. Certaines n’ont qu’une seule bonne réponse, d’autres
+            plusieurs. S’il est précisé que plusieurs bonnes réponses sont possibles, le point ne vous sera attribué que
+            si toutes les bonnes réponses attendues sont sélectionnées.</Phraseintro>
+        <Phraseintro>Votre manager a accès à votre score ainsi que votre progression tout au long du programme. Il est à
+            votre disposition pour répondre à vos éventuelles questions sur le contenu du programme.</Phraseintro>
+        <Phraseintro>
+            <![CDATA[Si toutefois celles-ci étaient d’ordre technique, merci de contacter Actando à : <a href="mailto:support@actando.com">support@actando.com</a>]]>
+        </Phraseintro>
+    </Introduction>
+    <!--Ecran de resultat-->
+    <Resultat>
+        <Title>Résultats</Title>
+        <PhraseResultat>Merci d’avoir participé à ce test d'évaluation de vos connaissances.</PhraseResultat>
+        <PhraseResultat showaftermoduleresult="1">Vous avez [P01] bonne(s) réponse(s) sur [P02], soit un score final de
+            [P03]%.</PhraseResultat>
+        <PhraseResultat>Pour mémoire, ce score a pour objectif d’identifier vos besoins. Nous le gardons en mémoire afin
+            que vous puissiez le comparer à vos résultats à l’issue du programme.</PhraseResultat>
+        <PhraseResultat>Cliquez sur l'icone "maison" en haut à droite pour revenir à l'écran principal.</PhraseResultat>
+        <!-- Si moins de 80 % de bonnes réponses -->
+    </Resultat>
+    <!--Labels -->
+    <LblPage>Page :</LblPage>
+    <!--Modules -->
+    <ModuleResult>
+        <GoodResult>A propos du module [P04], vous avez obtenu [P01] bonne(s) réponse(s) sur [P02] soit [P03]% de bonnes
+            réponses.</GoodResult>
+        <BadResult>A propos du module [P04], vous avez obtenu [P01] bonne(s) réponse(s) sur [P02] soit [P03]% de bonnes
+            réponses.</BadResult>
+    </ModuleResult>
+    <modules>
+        <Module id="1707">Structure et Préparation de la Visite</Module>
+        <Module id="1708">Introduction</Module>
+        <Module id="1709">Questions Utiles</Module>
+        <Module id="1710">Argumentation</Module>
+        <Module id="1711">Assertivité</Module>
+        <Module id="1712">Traitement des Objections</Module>
+        <Module id="1713">Conclusion et Suivi</Module>
+    </modules>
+    <questions>
+        <question id="1" ismultichoice="0" score="1">
+            <text>… me demande mes objectifs pour la visite et m'aide à les définir correctement si nécessaire.</text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="2" ismultichoice="0" score="1">
+            <text>… me soutient efficacement dans la préparation de la visite médecin et s'assure de sa réalisation en
+                amont de la visite.</text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="3" ismultichoice="0" score="1">
+            <text>… reprend les notes de la visite précédente en Duo avant la tournée de la journée.</text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="4" ismultichoice="0" score="1">
+            <text>… passe la majeure partie de la journée en Duo avec moi sur le terrain à visiter les professionels de
+                la santé.</text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="5" ismultichoice="0" score="1">
+            <text>… a un niveau élevé de connaissances sur les pathologies et les produits.</text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="6" ismultichoice="0" score="1">
+            <text>... a toujours une approche managériale adéquate. </text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="7" ismultichoice="0" score="1">
+            <text>… m'explique ce qu'est une visite réussie. </text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="8" ismultichoice="0" score="1">
+            <text>… m'aide à mettre en place les nouvelles compétences récemment acquises en formation. </text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="9" ismultichoice="0" score="1">
+            <text>… me donne une vision claire sur mon évolution personnelle et comment je peux faire évoluer mon
+                secteur. </text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+        <question id="10" ismultichoice="0" score="1">
+            <text>… se réfère souvent aux valeurs fondamentales du laboratoire. </text>
+            <answers>
+                <answer id="1" type="A">
+                    <text>Pas du tout d'accord</text>
+                </answer>
+                <answer id="2" type="B">
+                    <text>Pas d'accord </text>
+                </answer>
+                <answer id="3" type="C">
+                    <text>D'accord</text>
+                </answer>
+                <answer id="4" type="D">
+                    <text>Tout à fait d'accord</text>
+                </answer>
+                <answer id="5" type="E" keepposition="5"><text>Je ne sais pas</text></answer>
+            </answers>
+        </question>
+    </questions>
+    <audiofilespath>
+        <![CDATA[https://www.pharmacademy.com/data/-1_DEFAULT/languages/fr/files/1_QUIZZ EVALUATION/]]>
+    </audiofilespath>
+    <NumberQuestionsPerModule>-1</NumberQuestionsPerModule>
+</quiz>
