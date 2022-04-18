@@ -12,7 +12,7 @@ const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = "1:A_2:A_3:A_4:A_5:A_/372"; /**  1:A_2:A_3:A_4:A_5:A/390 */
+var data_lms = "_1:A_2:A_3:A_4:A_5:A/390"; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
 var data_to_html = [];
@@ -218,10 +218,12 @@ const deserializable = (data_lms, data_async) => {
   const data = data_lms.split("/");
   const questions = data[0].split("_");
   const last = questions[questions.length - 1];
-  if(last == ""){
-    questions.pop();
-  }
-  console.log(last)
+  const first = questions[0];
+
+  if(last == ""){questions.pop();}
+  if(first == ""){questions.shift();}
+
+  console.log(first)
   console.log(questions)
   let data_rest = [];
   // console.log(questions);
