@@ -12,13 +12,15 @@ const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = ""; /**  1:A_2:A_3:A_4:A_5:A/390 */
+var data_lms = "1:A_2:A_3:A_4:A_5:A/390"; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
+var data_to_html = [];
 var lengthQuizJson = 0;
 let scorefinal = [];
 let countQuest = 0;
 let time_start = false;
+let check_data_lms = false;
 
 //***- Declarations Variables Timer -*****
 var total_seconds = 0;
@@ -74,9 +76,11 @@ const ReadData = () => {
       c_minutes = parseInt(total_seconds / 60);
       c_seconds = parseInt(total_seconds % 60);
       time_start = true;
+      data_to_html = data_async;
     }
     // set Time Out end
-    const Qdb = data_async[countQuest];
+    console.log(data_to_html)
+    const Qdb = data_to_html[countQuest];
     questionNumber.innerText = countQuest + 1 + " / " + lengthQuizJson;
     questionEl.innerText = countQuest + 1 + "- " + Qdb.text;
     questionEl.setAttribute("data-id", Qdb.id);
@@ -209,6 +213,9 @@ const deserializable = (data_lms, data_async) => {
   const index_to_remove = [];
   const data = data_lms.split("/");
   const questions = data[0].split("_");
+  console.log(questions)
+  let data_rest = [];
+  // console.log(questions);
   for (i = 0; i < questions.length; i++) {
     const answers = questions[i].split(":");
     let answer = {
@@ -220,15 +227,23 @@ const deserializable = (data_lms, data_async) => {
   for (let i = 0; i < data_async.length; i++) {
     for (let j = 0; j < table_answers.length; j++) {
       if (data_async[i].id == table_answers[j].question) {
-        index_to_remove.push(j);
+        data_rest.push(data_async[i]);
+        index_to_remove.push(data_async[i].id);
       }
     }
   }
   // Remove from Array 
   for(let i = 0; i < index_to_remove.length; i++){
-    data_async.splice(i, 1);
+    for(let j = 0; j < data_async.length; j++){
+      if(data_async[j].id == index_to_remove[i]){
+        data_async.splice(j, 1);
+      }
+    }
+    
   }
   
+  // console.log(index_to_remove);
+  // console.log(data_async);
   if(data_lms == ""){
     return null;
   }else{
@@ -243,9 +258,21 @@ const serializable = (data_quiz, isTimer) => {
     const data = data_lms.split("/");
     data_lms = data[0] + "/" + total_seconds ;
   } else {
-    data_lms = "";
+    // if(data_lms != "" && check_data_lms == false){
+    //   const data = data_lms.split("/");
+    //   console.log(data);
+    //   data_lms = data[0] + "_";
+    //   // check_data_lms = true;
+    // }
+    // // data_lms = "";
+    const data = data_lms.split("/");
+    data_lms = data[0] ;
+    if(check_data_lms == false){
+      data[0]  = data_lms + "_";
+      check_data_lms = true;
+    }
     for (let i = 0; i < data_quiz.length; i++) {
-      data_lms += data_quiz[i].question + ":" + data_quiz[i].response + "_";
+      data_lms =   data[0] +   data_quiz[i].question + ":" + data_quiz[i].response  ;
       if (i == data_quiz.length - 1) {
         data_lms += "/" + total_seconds;
       }
@@ -262,4 +289,4 @@ const getDataLms = () => {
   // return localStorage.getItem("data_lms");
   return this.data_lms;
 };
-var serializableID = setInterval(function() { serializable(data_quiz, true); }, 1000);
+var serializableID = setInterval(function() { serializable(data_quiz, true); }, 10000);
