@@ -12,7 +12,7 @@ const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = "1:A_2:A_3:A_4:A_5:A/390"; /**  1:A_2:A_3:A_4:A_5:A/590 */
+var data_lms = ""; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
 var lengthQuizJson = 0;
@@ -67,7 +67,10 @@ const ReadData = () => {
     if (time_start == false) {
       total_seconds = deserializable(getDataLms(), data_async);
       lengthQuizJson = data_async.length;
-      // total_seconds = lengthQuizJson * 60;
+      console.log(total_seconds);
+      if(total_seconds == null){
+        total_seconds = lengthQuizJson * 60;
+      }
       c_minutes = parseInt(total_seconds / 60);
       c_seconds = parseInt(total_seconds % 60);
       time_start = true;
@@ -225,9 +228,14 @@ const deserializable = (data_lms, data_async) => {
   for(let i = 0; i < index_to_remove.length; i++){
     data_async.splice(i, 1);
   }
-  console.log(data_async);
-  let total_seconds = parseInt(data[1]);
-  return total_seconds;
+  
+  if(data_lms == ""){
+    return null;
+  }else{
+    let total_seconds = parseInt(data[1]);
+    return total_seconds;
+  }
+  
 };
 //***- Serializable Data for LMS -*****
 const serializable = (data_quiz, isTimer) => {
