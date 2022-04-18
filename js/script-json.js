@@ -12,7 +12,7 @@ const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = "_1:A_2:A_3:A_4:A_5:A/390"; /**  1:A_2:A_3:A_4:A_5:A/390 */
+var data_lms = ""; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
 var data_to_html = [];
@@ -73,7 +73,6 @@ const ReadData = () => {
     if (time_start == false) {
       total_seconds = deserializable(getDataLms(), data_async);
       lengthQuizJson = data_async.length;
-      console.log(total_seconds);
       if(total_seconds == null){
         total_seconds = lengthQuizJson * 60;
       }
@@ -83,7 +82,6 @@ const ReadData = () => {
       data_to_html = data_async;
     }
     // set Time Out end
-    console.log(data_to_html)
     const Qdb = data_to_html[countQuest];
     questionNumber.innerText = countQuest + 1 + " / " + lengthQuizJson;
     questionEl.innerText = countQuest + 1 + "- " + Qdb.text;
@@ -223,10 +221,7 @@ const deserializable = (data_lms, data_async) => {
   if(last == ""){questions.pop();}
   if(first == ""){questions.shift();}
 
-  console.log(first)
-  console.log(questions)
   let data_rest = [];
-  // console.log(questions);
   for (i = 0; i < questions.length; i++) {
     const answers = questions[i].split(":");
     let answer = {
@@ -253,8 +248,6 @@ const deserializable = (data_lms, data_async) => {
     
   }
   
-  // console.log(index_to_remove);
-  // console.log(data_async);
   if(data_lms == ""){
     return null;
   }else{

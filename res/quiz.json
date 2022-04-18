@@ -1,0 +1,2202 @@
+{
+    "questions": {
+      "question": [
+        {
+          "id": "1",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me demande mes objectifs pour la visite et m'aide à les définir correctement si nécessaire.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me soutient efficacement dans la préparation de la visite médecin et s'assure de sa réalisation en\n            amont de la visite.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 reprend les notes de la visite précédente en Duo avant la tournée de la journée.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 passe la majeure partie de la journée en Duo avec moi sur le terrain à visiter les professionels de\n            la santé.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 a un niveau élevé de connaissances sur les pathologies et les produits.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... a toujours une approche managériale adéquate. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'explique ce qu'est une visite réussie. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'aide à mettre en place les nouvelles compétences récemment acquises en formation. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me donne une vision claire sur mon évolution personnelle et comment je peux faire évoluer mon\n            secteur. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "10",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 se réfère souvent aux valeurs fondamentales du laboratoire. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me soutient et assure mon développement conformément aux objectifs de l'entreprise. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "12",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'explique la corrélation entre mes actions et leurs conséquences. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 communique des objectifs précis et clairs pour moi. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 communique des objectifs mesurables. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 communique des objectifs ambitieux et motivants. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "16",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 communique des objectifs réalisables. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 communique des objectifs définis dans le temps ( début et fin ). ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "18",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 identifie et développe les arguments qui me motivent ( carrière, primes,etc..). ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "19",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 identifie et discute avec moi mes aspirations professionnelles ( carriere, statut, ...). ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "20",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... partage avec moi les avantages de la réalisation de mes objectifs individuels et ceux de mon\n            équipe. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "21",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 est à l'écoute : me demande mon avis sur ma propre perception de la visite avant d'exprimer le sien.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "22",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 alloue du temps à l'analyse de mon développement personnel et professionnel en relation avec le plan\n            fixé. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "23",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me soutient et me donne un feed back pertinent basé sur les rapports CRM. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "24",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 pose des questions pertinentes qui m'aident à identifier les lacunes dans ma performance. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "25",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 formule clairement les différences entre mon comportement et les régles de l'entreprise. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "26",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 observe et met en évidence clairement mes points d'amélioration par rapport à ma performance.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "27",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026apporte la plupart du temps les réponses à mes questions. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "28",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'oriente sur les aspects que je maitrise et sur lesquels je peux facilement et efficacement agir.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "29",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... m'aide à exclure ce que je ne contrôle pas. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "30",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... m'aide à apprendre de mes précédentes erreurs. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "31",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'observe durant la visite et n'intervient (avec le médecin) que sur mon invitation. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "32",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 est dans un échange constructif soucieux de trouver une solution intelligente pour tous. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "33",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 a un grand sens de l 'écoute et de l'observation pour apporter une valeur ajoutée à mes\n            comportements dans l'environnement professionnel. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "34",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'aide à trouver /me fournit les moyens ( intellectuels et matériels)pour atteindre les objectifs en\n            place . ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "35",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me fait prendre conscience de l'importance d'accomplir mes tâches et de hiérarchiser mes priorités\n            dans mon activité . ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "36",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'oriente et m'apporte une meilleure compréhension dans le cas de nouveaux projets ou tâches.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "37",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'apporte le soutien psychologique et moral en cas de perte de confiance. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "38",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 encourage le maintien d'un équilibre familial et professionnel. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "39",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'aide et m'apporte un soutien approprié pour mon plan d'action. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "40",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me délègue des tâches dans le champ de mes comptétences. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "41",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me conseille et m'oriente dans les choix de formation à suivre. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "42",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 encourage les solutions créatives et nouvelles. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "43",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... me soutient pour être l'initiateur d'une solution à une problématique donnée. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "44",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 propose un maximum de 3 objectifs d'amélioration après la visite en Duo. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "45",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 prend régulièrement des notes qu'il utilise au cours de notre débriefing. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "46",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 met l'accent sur les points à améliorer et les aspects positifs de façon équilibrée. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "47",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 vérifie régulièrement la compréhension de ce qui a été convenu - ne laissant aucune place à\n            l'ambiguïté. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "48",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 trouve un consensus /obtient une adhésion sur les prochaines étapes après une séance de coaching.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "49",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 reconnaît et/ou célèbre mes réalisations en fonction de leur importance. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "50",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 partage son feedback rapidement et ouvertement après observation de mes actes. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "51",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me communique ses commentaires rationnels et objectifs. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "52",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 discute et identifie avec moi les prochaines étapes de mon développement personnel. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "53",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 établit le lien entre deux séances de coaching consécutives pour constater mon évolution et ma\n            progression. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "54",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 est disponible et ouvert à un échange efficace et dans les deux sens par téléphone, courrier ou face\n            à face. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "55",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 est toujours disponible pour moi quelles que soient les situations ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "56",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me donne un budget à gérer. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "57",
+          "ismultichoice": "1",
+          "score": "1",
+          "text": "\u2026 me permet de prendre la décision pour les prises en charge des médecins. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "58",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... me respecte . ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "59",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'accompagne pour résoudre les problèmes terrains qui me dépassent. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "60",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 s'assure du respect de la stratégie Marketing lors des visites en duo. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "61",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 A quelle fréquence mon DSM fait des VMD par mois ? liste déroulante de la fréquence par mois.\n        ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "\n                    Je ne sais pas"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
