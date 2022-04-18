@@ -1,4 +1,4 @@
-//***- Declarations DOM -*****
+//***- Declarations DOM -*****timeout-bar
 const questionEl = document.querySelector(".qestion");
 const questionNumber = document.querySelector(".number_qestion");
 const label = document.querySelector(".label");
@@ -7,12 +7,13 @@ const submit = document.querySelector("#submit");
 const showscore = document.querySelector("#showscore");
 const questionBar = document.querySelector(".question-bar");
 const resultBar = document.querySelector(".result-bar");
+const timeoutBar = document.querySelector(".timeout-bar");
 const allAnswer = document.querySelector(".allAnswer");
 const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = ""; /**  1:A_2:A_3:A_4:A_5:A/390 */
+var data_lms = "1:A_2:A_3:A_4:A_5:A/10"; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
 var data_to_html = [];
@@ -40,6 +41,19 @@ const CheckTime = () => {
   c_seconds = parseInt(total_seconds % 60);
 };
 var CheckTimeID = setInterval(CheckTime, 1000);
+
+//***- Check Timer Out -*****
+const CheckTimeOut = () => {
+  if (total_seconds == 0) {
+    clearInterval(CheckTimeID);
+    clearInterval(serializableID);
+    timeoutBar.classList.remove("hide");
+    questionBar.classList.add("hidden");
+    console.log(data_lms);
+    clearInterval(CheckTimeOutID);
+  }
+};
+var CheckTimeOutID = setInterval(CheckTimeOut, 1000);
 
 
 //***- Random Array -*****

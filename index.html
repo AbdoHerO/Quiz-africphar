@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="quize">
+<div class="quize ">
   <div class="question-bar">
     <h1 class="timer"></h1>
     <h2 class="qestion" data-id=""></h2>
@@ -29,6 +29,11 @@
     <div class="footer-button">
       <button class="btn" onClick="location.reload()">Play again</button>
     </div>
+  </div>
+
+  <div class="timeout-bar hide">
+    <h2 class="timeout-head" data-id="">Time Out !</h2>
+    <p class="timeout-content" data-id="">Oups ! ... vous avez dépassé le temps que vous vous avez</h2>
   </div>
   <div id="showscore" class="scoreArea"></div>
 </div>
