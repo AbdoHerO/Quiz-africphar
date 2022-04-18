@@ -1,0 +1,366 @@
+{
+    "questions": {
+      "question": [
+        {
+          "id": "1",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me demande mes objectifs pour la visite et m'aide à les définir correctement si nécessaire.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me soutient efficacement dans la préparation de la visite médecin et s'assure de sa réalisation en\n            amont de la visite.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 reprend les notes de la visite précédente en Duo avant la tournée de la journée.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 passe la majeure partie de la journée en Duo avec moi sur le terrain à visiter les professionels de\n            la santé.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 a un niveau élevé de connaissances sur les pathologies et les produits.",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "... a toujours une approche managériale adéquate. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'explique ce qu'est une visite réussie. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 m'aide à mettre en place les nouvelles compétences récemment acquises en formation. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 me donne une vision claire sur mon évolution personnelle et comment je peux faire évoluer mon\n            secteur. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "10",
+          "ismultichoice": "0",
+          "score": "1",
+          "text": "\u2026 se réfère souvent aux valeurs fondamentales du laboratoire. ",
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "type": "A",
+                "text": "Pas du tout d'accord"
+              },
+              {
+                "id": "2",
+                "type": "B",
+                "text": "Pas d'accord "
+              },
+              {
+                "id": "3",
+                "type": "C",
+                "text": "D'accord"
+              },
+              {
+                "id": "4",
+                "type": "D",
+                "text": "Tout à fait d'accord"
+              },
+              {
+                "id": "5",
+                "type": "E",
+                "keepposition": "5",
+                "text": "Je ne sais pas"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

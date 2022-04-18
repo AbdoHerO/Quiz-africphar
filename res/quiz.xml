@@ -1,1264 +1,1178 @@
-<?xml version="1.0" encoding="utf-8"?>
-<quiz>
-    <name>Evaluation : Communication et Techniques de Vente</name>
-    <description />
-    <!-- Afficher ou non les bonnes réponses -->
-    <ShowResponseBeforeGoToNext>0</ShowResponseBeforeGoToNext>
-    <!-- Afficher A,B,C,D... au  lieu de 1, 2,3,4...  devant les questions-->
-    <ShowAlphabetInsteadOfNumeric>0</ShowAlphabetInsteadOfNumeric>
-    <!-- Tri aléatoire des questions -->
-    <RandomSortQuestions>1</RandomSortQuestions>
-    <!-- Seuil de bonnes réponses requis-->
-    <GoodScoreRateRequired>80</GoodScoreRateRequired>
-    <bannerImage />
-    <Labels>
-        <LblQuestionSuivante>Suivant</LblQuestionSuivante>
-        <LblValider>Valider</LblValider>
-        <LblValidationQuiz>Valider</LblValidationQuiz>
-        <LblPage>Page :</LblPage>
-        <LblLancerQuiz>Lancer le Quizz</LblLancerQuiz>
-        <LblExitToolTip>retour</LblExitToolTip>
-        <Lbltooltipsound1>Cliquez ici pour lire ou arrêter le son</Lbltooltipsound1>
-        <Lbltooltipsound2>Cliquez ici pour lire le son</Lbltooltipsound2>
-        <lblNoTimeTitle>Time has expired</lblNoTimeTitle>
-        <lblNoTime>
-            <![CDATA[The allocated time has expired for this module.</br>You will now automatically be transferred to results.]]>
-        </lblNoTime>
-        <lblOk>Ok</lblOk>
-    </Labels>
-    <addAnswers>
-        <answer type="false" keepposition="true">
-            <text>Je ne sais pas</text>
-        </answer>
-    </addAnswers>
-    <sounds>
-        <intro />
-    </sounds>
-    <!--Ecran de bienvenue-->
-    <Introduction>
-        <Title>Introduction</Title>
-        <Phraseintro>Le test "Identification des besoins" consiste en une série de questions à choix multiples qui
-            portent sur le contenu du programme de formation. Il vous permet d’évaluer votre niveau de connaissance
-            avant de démarrer. Vous aurez à le refaire à la fin du programme (Test « Validation des connaissances ») de
-            façon à pouvoir mesurer votre progression.</Phraseintro>
-        <Phraseintro>Les questions sont à choix multiples. Certaines n’ont qu’une seule bonne réponse, d’autres
-            plusieurs. S’il est précisé que plusieurs bonnes réponses sont possibles, le point ne vous sera attribué que
-            si toutes les bonnes réponses attendues sont sélectionnées.</Phraseintro>
-        <Phraseintro>Votre manager a accès à votre score ainsi que votre progression tout au long du programme. Il est à
-            votre disposition pour répondre à vos éventuelles questions sur le contenu du programme.</Phraseintro>
-        <Phraseintro>
-            <![CDATA[Si toutefois celles-ci étaient d’ordre technique, merci de contacter Actando à : <a href="mailto:support@actando.com">support@actando.com</a>]]>
-        </Phraseintro>
-    </Introduction>
-    <!--Ecran de resultat-->
-    <Resultat>
-        <Title>Résultats</Title>
-        <PhraseResultat>Merci d’avoir participé à ce test d'évaluation de vos connaissances.</PhraseResultat>
-        <PhraseResultat showaftermoduleresult="1">Vous avez [P01] bonne(s) réponse(s) sur [P02], soit un score final de
-            [P03]%.</PhraseResultat>
-        <PhraseResultat>Pour mémoire, ce score a pour objectif d’identifier vos besoins. Nous le gardons en mémoire afin
-            que vous puissiez le comparer à vos résultats à l’issue du programme.</PhraseResultat>
-        <PhraseResultat>Cliquez sur l'icone "maison" en haut à droite pour revenir à l'écran principal.</PhraseResultat>
-        <!-- Si moins de 80 % de bonnes réponses -->
-    </Resultat>
-    <!--Labels -->
-    <LblPage>Page :</LblPage>
-    <!--Modules -->
-    <ModuleResult>
-        <GoodResult>A propos du module [P04], vous avez obtenu [P01] bonne(s) réponse(s) sur [P02] soit [P03]% de bonnes
-            réponses.</GoodResult>
-        <BadResult>A propos du module [P04], vous avez obtenu [P01] bonne(s) réponse(s) sur [P02] soit [P03]% de bonnes
-            réponses.</BadResult>
-    </ModuleResult>
-    <modules>
-        <Module id="1707">Structure et Préparation de la Visite</Module>
-        <Module id="1708">Introduction</Module>
-        <Module id="1709">Questions Utiles</Module>
-        <Module id="1710">Argumentation</Module>
-        <Module id="1711">Assertivité</Module>
-        <Module id="1712">Traitement des Objections</Module>
-        <Module id="1713">Conclusion et Suivi</Module>
-    </modules>
-    <questions>
-        <question id="1" ismultichoice="0" score="1">
-            <text>… me demande mes objectifs pour la visite et m'aide à les définir correctement si nécessaire.</text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="2" ismultichoice="0" score="1">
-            <text>… me soutient efficacement dans la préparation de la visite médecin et s'assure de sa réalisation en
-                amont de la visite.</text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="3" ismultichoice="0" score="1">
-            <text>… reprend les notes de la visite précédente en Duo avant la tournée de la journée.</text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="4" ismultichoice="0" score="1">
-            <text>… passe la majeure partie de la journée en Duo avec moi sur le terrain à visiter les professionels de
-                la santé.</text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="5" ismultichoice="0" score="1">
-            <text>… a un niveau élevé de connaissances sur les pathologies et les produits.</text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="6" ismultichoice="0" score="1">
-            <text>... a toujours une approche managériale adéquate. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="7" ismultichoice="0" score="1">
-            <text>… m'explique ce qu'est une visite réussie. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="8" ismultichoice="0" score="1">
-            <text>… m'aide à mettre en place les nouvelles compétences récemment acquises en formation. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="9" ismultichoice="0" score="1">
-            <text>… me donne une vision claire sur mon évolution personnelle et comment je peux faire évoluer mon
-                secteur. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="10" ismultichoice="0" score="1">
-            <text>… se réfère souvent aux valeurs fondamentales du laboratoire. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="11" ismultichoice="0" score="1">
-            <text>… me soutient et assure mon développement conformément aux objectifs de l'entreprise. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="12" ismultichoice="0" score="1">
-            <text>… m'explique la corrélation entre mes actions et leurs conséquences. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="13" ismultichoice="0" score="1">
-            <text>… communique des objectifs précis et clairs pour moi. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="14" ismultichoice="0" score="1">
-            <text>… communique des objectifs mesurables. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="15" ismultichoice="0" score="1">
-            <text>… communique des objectifs ambitieux et motivants. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="16" ismultichoice="0" score="1">
-            <text>… communique des objectifs réalisables. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="17" ismultichoice="0" score="1">
-            <text>… communique des objectifs définis dans le temps ( début et fin ). </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="18" ismultichoice="0" score="1">
-            <text>… identifie et développe les arguments qui me motivent ( carrière, primes,etc..). </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="19" ismultichoice="0" score="1">
-            <text>… identifie et discute avec moi mes aspirations professionnelles ( carriere, statut, ...). </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="20" ismultichoice="0" score="1">
-            <text>... partage avec moi les avantages de la réalisation de mes objectifs individuels et ceux de mon
-                équipe. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="21" ismultichoice="0" score="1">
-            <text>… est à l'écoute : me demande mon avis sur ma propre perception de la visite avant d'exprimer le sien.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="22" ismultichoice="0" score="1">
-            <text>… alloue du temps à l'analyse de mon développement personnel et professionnel en relation avec le plan
-                fixé. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="23" ismultichoice="0" score="1">
-            <text>… me soutient et me donne un feed back pertinent basé sur les rapports CRM. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="24" ismultichoice="0" score="1">
-            <text>… pose des questions pertinentes qui m'aident à identifier les lacunes dans ma performance. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="25" ismultichoice="0" score="1">
-            <text>… formule clairement les différences entre mon comportement et les régles de l'entreprise. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="26" ismultichoice="0" score="1">
-            <text>… observe et met en évidence clairement mes points d'amélioration par rapport à ma performance.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="27" ismultichoice="0" score="1">
-            <text>…apporte la plupart du temps les réponses à mes questions. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="28" ismultichoice="0" score="1">
-            <text>… m'oriente sur les aspects que je maitrise et sur lesquels je peux facilement et efficacement agir.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="29" ismultichoice="0" score="1">
-            <text>... m'aide à exclure ce que je ne contrôle pas. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="30" ismultichoice="0" score="1">
-            <text>... m'aide à apprendre de mes précédentes erreurs. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="31" ismultichoice="0" score="1">
-            <text>… m'observe durant la visite et n'intervient (avec le médecin) que sur mon invitation. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="32" ismultichoice="0" score="1">
-            <text>… est dans un échange constructif soucieux de trouver une solution intelligente pour tous. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="33" ismultichoice="0" score="1">
-            <text>… a un grand sens de l 'écoute et de l'observation pour apporter une valeur ajoutée à mes
-                comportements dans l'environnement professionnel. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="34" ismultichoice="0" score="1">
-            <text>… m'aide à trouver /me fournit les moyens ( intellectuels et matériels)pour atteindre les objectifs en
-                place . </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="35" ismultichoice="0" score="1">
-            <text>… me fait prendre conscience de l'importance d'accomplir mes tâches et de hiérarchiser mes priorités
-                dans mon activité . </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="36" ismultichoice="0" score="1">
-            <text>… m'oriente et m'apporte une meilleure compréhension dans le cas de nouveaux projets ou tâches.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="37" ismultichoice="0" score="1">
-            <text>… m'apporte le soutien psychologique et moral en cas de perte de confiance. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="38" ismultichoice="0" score="1">
-            <text>… encourage le maintien d'un équilibre familial et professionnel. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="39" ismultichoice="0" score="1">
-            <text>… m'aide et m'apporte un soutien approprié pour mon plan d'action. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="40" ismultichoice="0" score="1">
-            <text>… me délègue des tâches dans le champ de mes comptétences. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="41" ismultichoice="0" score="1">
-            <text>… me conseille et m'oriente dans les choix de formation à suivre. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="42" ismultichoice="0" score="1">
-            <text>… encourage les solutions créatives et nouvelles. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="43" ismultichoice="0" score="1">
-            <text>... me soutient pour être l'initiateur d'une solution à une problématique donnée. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="44" ismultichoice="0" score="1">
-            <text>… propose un maximum de 3 objectifs d'amélioration après la visite en Duo. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="45" ismultichoice="0" score="1">
-            <text>… prend régulièrement des notes qu'il utilise au cours de notre débriefing. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="46" ismultichoice="0" score="1">
-            <text>… met l'accent sur les points à améliorer et les aspects positifs de façon équilibrée. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="47" ismultichoice="0" score="1">
-            <text>… vérifie régulièrement la compréhension de ce qui a été convenu - ne laissant aucune place à
-                l'ambiguïté. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="48" ismultichoice="0" score="1">
-            <text>… trouve un consensus /obtient une adhésion sur les prochaines étapes après une séance de coaching.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="49" ismultichoice="0" score="1">
-            <text>… reconnaît et/ou célèbre mes réalisations en fonction de leur importance. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="50" ismultichoice="0" score="1">
-            <text>… partage son feedback rapidement et ouvertement après observation de mes actes. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="51" ismultichoice="0" score="1">
-            <text>… me communique ses commentaires rationnels et objectifs. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="52" ismultichoice="0" score="1">
-            <text>… discute et identifie avec moi les prochaines étapes de mon développement personnel. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="53" ismultichoice="0" score="1">
-            <text>… établit le lien entre deux séances de coaching consécutives pour constater mon évolution et ma
-                progression. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="54" ismultichoice="0" score="1">
-            <text>… est disponible et ouvert à un échange efficace et dans les deux sens par téléphone, courrier ou face
-                à face. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="55" ismultichoice="0" score="1">
-            <text>… est toujours disponible pour moi quelles que soient les situations </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="56" ismultichoice="0" score="1">
-            <text>… me donne un budget à gérer. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="57" ismultichoice="1" score="1">
-            <text>… me permet de prendre la décision pour les prises en charge des médecins. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="58" ismultichoice="0" score="1">
-            <text>... me respecte . </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="59" ismultichoice="0" score="1">
-            <text>… m'accompagne pour résoudre les problèmes terrains qui me dépassent. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="60" ismultichoice="0" score="1">
-            <text>… s'assure du respect de la stratégie Marketing lors des visites en duo. </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-        <question id="61" ismultichoice="0" score="1">
-            <text>… A quelle fréquence mon DSM fait des VMD par mois ? liste déroulante de la fréquence par mois.
-            </text>
-            <answers>
-                <answer id="1" type="A">
-                    <text>Pas du tout d'accord</text>
-                </answer>
-                <answer id="2" type="B">
-                    <text>Pas d'accord </text>
-                </answer>
-                <answer id="3" type="C">
-                    <text>D'accord</text>
-                </answer>
-                <answer id="4" type="D">
-                    <text>Tout à fait d'accord</text>
-                </answer>
-                <answer id="5" type="E" keepposition="5"><text>
-                        Je ne sais pas</text></answer>
-            </answers>
-        </question>
-    </questions>
-    <audiofilespath>
-        <![CDATA[https://www.pharmacademy.com/data/-1_DEFAULT/languages/fr/files/1_QUIZZ EVALUATION/]]>
-    </audiofilespath>
-    <NumberQuestionsPerModule>-1</NumberQuestionsPerModule>
-</quiz>
+<questions>
+    <question id="1" ismultichoice="0" score="1">
+        <text>… me demande mes objectifs pour la visite et m'aide à les définir correctement si nécessaire.</text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="2" ismultichoice="0" score="1">
+        <text>… me soutient efficacement dans la préparation de la visite médecin et s'assure de sa réalisation en
+            amont de la visite.</text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="3" ismultichoice="0" score="1">
+        <text>… reprend les notes de la visite précédente en Duo avant la tournée de la journée.</text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="4" ismultichoice="0" score="1">
+        <text>… passe la majeure partie de la journée en Duo avec moi sur le terrain à visiter les professionels de
+            la santé.</text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="5" ismultichoice="0" score="1">
+        <text>… a un niveau élevé de connaissances sur les pathologies et les produits.</text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="6" ismultichoice="0" score="1">
+        <text>... a toujours une approche managériale adéquate. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="7" ismultichoice="0" score="1">
+        <text>… m'explique ce qu'est une visite réussie. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="8" ismultichoice="0" score="1">
+        <text>… m'aide à mettre en place les nouvelles compétences récemment acquises en formation. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="9" ismultichoice="0" score="1">
+        <text>… me donne une vision claire sur mon évolution personnelle et comment je peux faire évoluer mon
+            secteur. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="10" ismultichoice="0" score="1">
+        <text>… se réfère souvent aux valeurs fondamentales du laboratoire. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="11" ismultichoice="0" score="1">
+        <text>… me soutient et assure mon développement conformément aux objectifs de l'entreprise. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="12" ismultichoice="0" score="1">
+        <text>… m'explique la corrélation entre mes actions et leurs conséquences. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="13" ismultichoice="0" score="1">
+        <text>… communique des objectifs précis et clairs pour moi. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="14" ismultichoice="0" score="1">
+        <text>… communique des objectifs mesurables. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="15" ismultichoice="0" score="1">
+        <text>… communique des objectifs ambitieux et motivants. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="16" ismultichoice="0" score="1">
+        <text>… communique des objectifs réalisables. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="17" ismultichoice="0" score="1">
+        <text>… communique des objectifs définis dans le temps ( début et fin ). </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="18" ismultichoice="0" score="1">
+        <text>… identifie et développe les arguments qui me motivent ( carrière, primes,etc..). </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="19" ismultichoice="0" score="1">
+        <text>… identifie et discute avec moi mes aspirations professionnelles ( carriere, statut, ...). </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="20" ismultichoice="0" score="1">
+        <text>... partage avec moi les avantages de la réalisation de mes objectifs individuels et ceux de mon
+            équipe. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="21" ismultichoice="0" score="1">
+        <text>… est à l'écoute : me demande mon avis sur ma propre perception de la visite avant d'exprimer le sien.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="22" ismultichoice="0" score="1">
+        <text>… alloue du temps à l'analyse de mon développement personnel et professionnel en relation avec le plan
+            fixé. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="23" ismultichoice="0" score="1">
+        <text>… me soutient et me donne un feed back pertinent basé sur les rapports CRM. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="24" ismultichoice="0" score="1">
+        <text>… pose des questions pertinentes qui m'aident à identifier les lacunes dans ma performance. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="25" ismultichoice="0" score="1">
+        <text>… formule clairement les différences entre mon comportement et les régles de l'entreprise. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="26" ismultichoice="0" score="1">
+        <text>… observe et met en évidence clairement mes points d'amélioration par rapport à ma performance.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="27" ismultichoice="0" score="1">
+        <text>…apporte la plupart du temps les réponses à mes questions. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="28" ismultichoice="0" score="1">
+        <text>… m'oriente sur les aspects que je maitrise et sur lesquels je peux facilement et efficacement agir.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="29" ismultichoice="0" score="1">
+        <text>... m'aide à exclure ce que je ne contrôle pas. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="30" ismultichoice="0" score="1">
+        <text>... m'aide à apprendre de mes précédentes erreurs. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="31" ismultichoice="0" score="1">
+        <text>… m'observe durant la visite et n'intervient (avec le médecin) que sur mon invitation. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="32" ismultichoice="0" score="1">
+        <text>… est dans un échange constructif soucieux de trouver une solution intelligente pour tous. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="33" ismultichoice="0" score="1">
+        <text>… a un grand sens de l 'écoute et de l'observation pour apporter une valeur ajoutée à mes
+            comportements dans l'environnement professionnel. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="34" ismultichoice="0" score="1">
+        <text>… m'aide à trouver /me fournit les moyens ( intellectuels et matériels)pour atteindre les objectifs en
+            place . </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="35" ismultichoice="0" score="1">
+        <text>… me fait prendre conscience de l'importance d'accomplir mes tâches et de hiérarchiser mes priorités
+            dans mon activité . </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="36" ismultichoice="0" score="1">
+        <text>… m'oriente et m'apporte une meilleure compréhension dans le cas de nouveaux projets ou tâches.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="37" ismultichoice="0" score="1">
+        <text>… m'apporte le soutien psychologique et moral en cas de perte de confiance. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="38" ismultichoice="0" score="1">
+        <text>… encourage le maintien d'un équilibre familial et professionnel. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="39" ismultichoice="0" score="1">
+        <text>… m'aide et m'apporte un soutien approprié pour mon plan d'action. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="40" ismultichoice="0" score="1">
+        <text>… me délègue des tâches dans le champ de mes comptétences. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="41" ismultichoice="0" score="1">
+        <text>… me conseille et m'oriente dans les choix de formation à suivre. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="42" ismultichoice="0" score="1">
+        <text>… encourage les solutions créatives et nouvelles. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="43" ismultichoice="0" score="1">
+        <text>... me soutient pour être l'initiateur d'une solution à une problématique donnée. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="44" ismultichoice="0" score="1">
+        <text>… propose un maximum de 3 objectifs d'amélioration après la visite en Duo. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="45" ismultichoice="0" score="1">
+        <text>… prend régulièrement des notes qu'il utilise au cours de notre débriefing. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="46" ismultichoice="0" score="1">
+        <text>… met l'accent sur les points à améliorer et les aspects positifs de façon équilibrée. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="47" ismultichoice="0" score="1">
+        <text>… vérifie régulièrement la compréhension de ce qui a été convenu - ne laissant aucune place à
+            l'ambiguïté. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="48" ismultichoice="0" score="1">
+        <text>… trouve un consensus /obtient une adhésion sur les prochaines étapes après une séance de coaching.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="49" ismultichoice="0" score="1">
+        <text>… reconnaît et/ou célèbre mes réalisations en fonction de leur importance. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="50" ismultichoice="0" score="1">
+        <text>… partage son feedback rapidement et ouvertement après observation de mes actes. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="51" ismultichoice="0" score="1">
+        <text>… me communique ses commentaires rationnels et objectifs. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="52" ismultichoice="0" score="1">
+        <text>… discute et identifie avec moi les prochaines étapes de mon développement personnel. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="53" ismultichoice="0" score="1">
+        <text>… établit le lien entre deux séances de coaching consécutives pour constater mon évolution et ma
+            progression. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="54" ismultichoice="0" score="1">
+        <text>… est disponible et ouvert à un échange efficace et dans les deux sens par téléphone, courrier ou face
+            à face. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="55" ismultichoice="0" score="1">
+        <text>… est toujours disponible pour moi quelles que soient les situations </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="56" ismultichoice="0" score="1">
+        <text>… me donne un budget à gérer. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="57" ismultichoice="1" score="1">
+        <text>… me permet de prendre la décision pour les prises en charge des médecins. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="58" ismultichoice="0" score="1">
+        <text>... me respecte . </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="59" ismultichoice="0" score="1">
+        <text>… m'accompagne pour résoudre les problèmes terrains qui me dépassent. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="60" ismultichoice="0" score="1">
+        <text>… s'assure du respect de la stratégie Marketing lors des visites en duo. </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+    <question id="61" ismultichoice="0" score="1">
+        <text>… A quelle fréquence mon DSM fait des VMD par mois ? liste déroulante de la fréquence par mois.
+        </text>
+        <answers>
+            <answer id="1" type="A">
+                <text>Pas du tout d'accord</text>
+            </answer>
+            <answer id="2" type="B">
+                <text>Pas d'accord </text>
+            </answer>
+            <answer id="3" type="C">
+                <text>D'accord</text>
+            </answer>
+            <answer id="4" type="D">
+                <text>Tout à fait d'accord</text>
+            </answer>
+            <answer id="5" type="E" keepposition="5"><text>
+                    Je ne sais pas</text></answer>
+        </answers>
+    </question>
+</questions>
