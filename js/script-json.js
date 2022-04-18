@@ -12,7 +12,7 @@ const result = document.querySelector(".result");
 const timer = document.querySelector(".timer");
 
 //***- Declarations Variables -*****
-var data_lms = "1:A_2:A_3:A_4:A_5:A/390"; /**  1:A_2:A_3:A_4:A_5:A/390 */
+var data_lms = "1:A_2:A_3:A_4:A_5:A_/372"; /**  1:A_2:A_3:A_4:A_5:A/390 */
 var data_quiz = [];
 var data_from_json = [];
 var data_to_html = [];
@@ -30,7 +30,11 @@ var c_seconds = 0;
 
 //***- Check Timer -*****
 const CheckTime = () => {
-  timer.innerText = c_minutes + ":" + c_seconds;
+  if (c_seconds / 10 < 1) {
+    timer.innerText = c_minutes + ":0"  + c_seconds;
+  }else{
+    timer.innerText = c_minutes + ":" + c_seconds;
+  }
   total_seconds -= 1;
   c_minutes = parseInt(total_seconds / 60);
   c_seconds = parseInt(total_seconds % 60);
@@ -213,6 +217,11 @@ const deserializable = (data_lms, data_async) => {
   const index_to_remove = [];
   const data = data_lms.split("/");
   const questions = data[0].split("_");
+  const last = questions[questions.length - 1];
+  if(last == ""){
+    questions.pop();
+  }
+  console.log(last)
   console.log(questions)
   let data_rest = [];
   // console.log(questions);
@@ -258,13 +267,6 @@ const serializable = (data_quiz, isTimer) => {
     const data = data_lms.split("/");
     data_lms = data[0] + "/" + total_seconds ;
   } else {
-    // if(data_lms != "" && check_data_lms == false){
-    //   const data = data_lms.split("/");
-    //   console.log(data);
-    //   data_lms = data[0] + "_";
-    //   // check_data_lms = true;
-    // }
-    // // data_lms = "";
     const data = data_lms.split("/");
     data_lms = data[0] ;
     if(check_data_lms == false){
@@ -272,8 +274,9 @@ const serializable = (data_quiz, isTimer) => {
       check_data_lms = true;
     }
     for (let i = 0; i < data_quiz.length; i++) {
-      data_lms =   data[0] +   data_quiz[i].question + ":" + data_quiz[i].response  ;
+      data_lms =   data[0] +   data_quiz[i].question + ":" + data_quiz[i].response + "_" ;
       if (i == data_quiz.length - 1) {
+        // data_lms = data_lms.slice(0, -1);
         data_lms += "/" + total_seconds;
       }
     }
